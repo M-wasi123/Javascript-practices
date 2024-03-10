@@ -7,6 +7,9 @@
 // for (let i = 1; i < 11; i++){
 //     document.write(`<li> ${tableNumber} x ${i} = ${tableNumber * i} </li>`)
 // }
+function myfunction(){
+    document.getElementById("but");
+}
 const tableNumber1 = 2
 function firstclick(){
     for (let i = 1; i < 11; i++){
@@ -66,7 +69,20 @@ function nineclick(){
     }
 }
 
+function performsearch(){
+    const table = document.getElementById("search-input").value;
 
+    for (let i = 1; i < 11; i++){
+        document.write(`<li> ${table} x ${i} = ${table * i} </li>`)
+    }
+}
+
+// function performsearch(){
+//     const man = document.getElementById("search-input").value;
+//     document.write(man)
+     
+    
+// }
 // document.write(`<li> ${tableNumber} x 1 = ${tableNumber * 1} </li>`)
 // document.write(`<li> ${tableNumber} x 2 = ${tableNumber * 2} </li>`)
 // document.write(`<li> ${tableNumber} x 3 = ${tableNumber * 3} </li>`)
