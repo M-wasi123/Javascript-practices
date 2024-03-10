@@ -7,9 +7,6 @@
 // for (let i = 1; i < 11; i++){
 //     document.write(`<li> ${tableNumber} x ${i} = ${tableNumber * i} </li>`)
 // }
-function myfunction(){
-    document.getElementById("but");
-}
 const tableNumber1 = 2
 function firstclick(){
     for (let i = 1; i < 11; i++){
