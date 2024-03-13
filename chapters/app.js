@@ -144,6 +144,7 @@ for (let i = 1; i < 11; i++){
     document.getElementById("table10").innerHTML = (`<li style='list-style:none;' > ${tableNum5} x ${i} = ${tableNum5 * i} </li>`)
 }
 }
+
 const tableNum6 = 6
 function fifthclick(){
 
@@ -157,7 +158,7 @@ for (let i = 1; i < 4; i++){
     document.getElementById("table3").innerHTML = (`<li style='list-style:none;' > ${tableNum6} x ${i} = ${tableNum6 * i} </li>`)
 }
 for (let i = 1; i < 5; i++){
-    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum6} x ${i} = ${tableNum6 * i} </li>`)
+    document.getElementById("table4").innerHTML = (`<li style='list-style:none;' > ${tableNum6} x ${i} = ${tableNum6 * i} </li>`)
 }
 for (let i = 1; i < 6; i++){
     document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum6} x ${i} = ${tableNum6 * i} </li>`)
@@ -191,7 +192,7 @@ for (let i = 1; i < 4; i++){
     document.getElementById("table3").innerHTML = (`<li style='list-style:none;' > ${tableNum7} x ${i} = ${tableNum7 * i} </li>`)
 }
 for (let i = 1; i < 5; i++){
-    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum7} x ${i} = ${tableNum7 * i} </li>`)
+    document.getElementById("table4").innerHTML = (`<li style='list-style:none;' > ${tableNum7} x ${i} = ${tableNum7 * i} </li>`)
 }
 for (let i = 1; i < 6; i++){
     document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum7} x ${i} = ${tableNum7 * i} </li>`)
@@ -225,7 +226,7 @@ for (let i = 1; i < 4; i++){
     document.getElementById("table3").innerHTML = (`<li style='list-style:none;' > ${tableNum8} x ${i} = ${tableNum8 * i} </li>`)
 }
 for (let i = 1; i < 5; i++){
-    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum8} x ${i} = ${tableNum8 * i} </li>`)
+    document.getElementById("table4").innerHTML = (`<li style='list-style:none;' > ${tableNum8} x ${i} = ${tableNum8 * i} </li>`)
 }
 for (let i = 1; i < 6; i++){
     document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum8} x ${i} = ${tableNum8 * i} </li>`)
@@ -259,7 +260,7 @@ for (let i = 1; i < 4; i++){
     document.getElementById("table3").innerHTML = (`<li style='list-style:none;' > ${tableNum9} x ${i} = ${tableNum9 * i} </li>`)
 }
 for (let i = 1; i < 5; i++){
-    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum9} x ${i} = ${tableNum9 * i} </li>`)
+    document.getElementById("table4").innerHTML = (`<li style='list-style:none;' > ${tableNum9} x ${i} = ${tableNum9 * i} </li>`)
 }
 for (let i = 1; i < 6; i++){
     document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum9} x ${i} = ${tableNum9 * i} </li>`)
@@ -293,7 +294,7 @@ for (let i = 1; i < 4; i++){
     document.getElementById("table3").innerHTML = (`<li style='list-style:none;' > ${tableNum10} x ${i} = ${tableNum10 * i} </li>`)
 }
 for (let i = 1; i < 5; i++){
-    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum10} x ${i} = ${tableNum10 * i} </li>`)
+    document.getElementById("table4").innerHTML = (`<li style='list-style:none;' > ${tableNum10} x ${i} = ${tableNum10 * i} </li>`)
 }
 for (let i = 1; i < 6; i++){
     document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum10} x ${i} = ${tableNum10 * i} </li>`)
@@ -328,7 +329,7 @@ function performsearch(){
         document.getElementById("table3").innerHTML = (`<li style='list-style:none;' > ${tableNum11} x ${i} = ${tableNum11 * i} </li>`)
     }
     for (let i = 1; i < 5; i++){
-        document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum11} x ${i} = ${tableNum11 * i} </li>`)
+        document.getElementById("table4").innerHTML = (`<li style='list-style:none;' > ${tableNum11} x ${i} = ${tableNum11 * i} </li>`)
     }
     for (let i = 1; i < 6; i++){
         document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum11} x ${i} = ${tableNum11 * i} </li>`)
@@ -348,13 +349,14 @@ function performsearch(){
     for (let i = 1; i < 11; i++){
         document.getElementById("table10").innerHTML = (`<li style='list-style:none;' > ${tableNum11} x ${i} = ${tableNum11 * i} </li>`)
     }
-}else{
+}else if(0 <= tableNum11){
+    alert('Please Enter 1,2,3')
+}
+else{
     alert('Please Enter Positive Number')
 }
 }
-     
-    
-// }
+
 // document.write(`<li> ${tableNumber} x 1 = ${tableNumber * 1} </li>`)
 // document.write(`<li> ${tableNumber} x 2 = ${tableNumber * 2} </li>`)
 // document.write(`<li> ${tableNumber} x 3 = ${tableNumber * 3} </li>`)
