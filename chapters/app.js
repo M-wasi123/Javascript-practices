@@ -8,103 +8,350 @@
 //     document.write(`<li> ${tableNumber} x ${i} = ${tableNumber * i} </li>`)
 // }
 
-const tableNumber1 = 2
+const tableNum2 = 2
 function firstclick(){
-    var back = (`<a href="./tables.html">Back</a>`)
-document.write(back)
-
+//     var back = (`<a href="./tables.html">Back</a>`)
+// document.write(back)
+    for (let i = 1; i < 2; i++){
+        document.getElementById("table1").innerHTML = (`<li style='list-style:none;' > ${tableNum2} x ${i} = ${tableNum2 * i} </li>`)
+    }
+    for (let i = 1; i < 3; i++){
+        document.getElementById("table2").innerHTML = (`<li style='list-style:none;' > ${tableNum2} x ${i} = ${tableNum2 * i} </li>`)
+    }
+    for (let i = 1; i < 4; i++){
+        document.getElementById("table3").innerHTML = (`<li style='list-style:none;' > ${tableNum2} x ${i} = ${tableNum2 * i} </li>`)
+    }
+    for (let i = 1; i < 5; i++){
+        document.getElementById("table4").innerHTML = (`<li style='list-style:none;' > ${tableNum2} x ${i} = ${tableNum2 * i} </li>`)
+    }
+    for (let i = 1; i < 6; i++){
+        document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum2} x ${i} = ${tableNum2 * i} </li>`)
+    }
+    for (let i = 1; i < 7; i++){
+        document.getElementById("table6").innerHTML = (`<li style='list-style:none;' > ${tableNum2} x ${i} = ${tableNum2 * i} </li>`)
+    }
+    for (let i = 1; i < 8; i++){
+        document.getElementById("table7").innerHTML = (`<li style='list-style:none;' > ${tableNum2} x ${i} = ${tableNum2 * i} </li>`)
+    }
+    for (let i = 1; i < 9; i++){
+        document.getElementById("table8").innerHTML = (`<li style='list-style:none;' > ${tableNum2} x ${i} = ${tableNum2 * i} </li>`)
+    }
+    for (let i = 1; i < 10; i++){
+        document.getElementById("table9").innerHTML = (`<li style='list-style:none;' > ${tableNum2} x ${i} = ${tableNum2 * i} </li>`)
+    }
     for (let i = 1; i < 11; i++){
-        document.write(`<li style='list-style:none;margin-left:50px' > ${tableNumber1} x ${i} = ${tableNumber1 * i} </li>`)
+        document.getElementById("table10").innerHTML = (`<li style='list-style:none;' > ${tableNum2} x ${i} = ${tableNum2 * i} </li>`)
     }
 }
-const tableNumber2 = 3
+const tableNum3 = 3
 function secondclick(){
-    var back = (`<a href="./tables.html">Back</a>`)
-    document.write(back)
-    
-    for (let i = 1; i < 11; i++){
-        document.write(`<li style='list-style:none;margin-left:50px' > ${tableNumber2} x ${i} = ${tableNumber2 * i} </li>`)
-    }
+
+for (let i = 1; i < 2; i++){
+    document.getElementById("table1").innerHTML = (`<li style='list-style:none;' > ${tableNum3} x ${i} = ${tableNum3 * i} </li>`)
 }
-const tableNumber3 = 4
+for (let i = 1; i < 3; i++){
+    document.getElementById("table2").innerHTML = (`<li style='list-style:none;' > ${tableNum3} x ${i} = ${tableNum3 * i} </li>`)
+}
+for (let i = 1; i < 4; i++){
+    document.getElementById("table3").innerHTML = (`<li style='list-style:none;' > ${tableNum3} x ${i} = ${tableNum3 * i} </li>`)
+}
+for (let i = 1; i < 5; i++){
+    document.getElementById("table4").innerHTML = (`<li style='list-style:none;' > ${tableNum3} x ${i} = ${tableNum3 * i} </li>`)
+}
+for (let i = 1; i < 6; i++){
+    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum3} x ${i} = ${tableNum3 * i} </li>`)
+}
+for (let i = 1; i < 7; i++){
+    document.getElementById("table6").innerHTML = (`<li style='list-style:none;' > ${tableNum3} x ${i} = ${tableNum3 * i} </li>`)
+}
+for (let i = 1; i < 8; i++){
+    document.getElementById("table7").innerHTML = (`<li style='list-style:none;' > ${tableNum3} x ${i} = ${tableNum3 * i} </li>`)
+}
+for (let i = 1; i < 9; i++){
+    document.getElementById("table8").innerHTML = (`<li style='list-style:none;' > ${tableNum3} x ${i} = ${tableNum3 * i} </li>`)
+}
+for (let i = 1; i < 10; i++){
+    document.getElementById("table9").innerHTML = (`<li style='list-style:none;' > ${tableNum3} x ${i} = ${tableNum3 * i} </li>`)
+}
+for (let i = 1; i < 11; i++){
+    document.getElementById("table10").innerHTML = (`<li style='list-style:none;' > ${tableNum3} x ${i} = ${tableNum3 * i} </li>`)
+}
+}
+const tableNum4 = 4
 function thirdclick(){
-    var back = (`<a href="./tables.html">Back</a>`)
-    document.write(back)
-    
-    for (let i = 1; i < 11; i++){
-        document.write(`<li style='list-style:none;margin-left:50px' > ${tableNumber3} x ${i} = ${tableNumber3 * i} </li>`)
-    }
+for (let i = 1; i < 2; i++){
+    document.getElementById("table1").innerHTML = (`<li style='list-style:none;' > ${tableNum4} x ${i} = ${tableNum4 * i} </li>`)
 }
-const tableNumber4 = 5
+for (let i = 1; i < 3; i++){
+    document.getElementById("table2").innerHTML = (`<li style='list-style:none;' > ${tableNum4} x ${i} = ${tableNum4 * i} </li>`)
+}
+for (let i = 1; i < 4; i++){
+    document.getElementById("table3").innerHTML = (`<li style='list-style:none;' > ${tableNum4} x ${i} = ${tableNum4 * i} </li>`)
+}
+for (let i = 1; i < 5; i++){
+    document.getElementById("table4").innerHTML = (`<li style='list-style:none;' > ${tableNum4} x ${i} = ${tableNum4 * i} </li>`)
+}
+for (let i = 1; i < 6; i++){
+    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum4} x ${i} = ${tableNum4 * i} </li>`)
+}
+for (let i = 1; i < 7; i++){
+    document.getElementById("table6").innerHTML = (`<li style='list-style:none;' > ${tableNum4} x ${i} = ${tableNum4 * i} </li>`)
+}
+for (let i = 1; i < 8; i++){
+    document.getElementById("table7").innerHTML = (`<li style='list-style:none;' > ${tableNum4} x ${i} = ${tableNum4 * i} </li>`)
+}
+for (let i = 1; i < 9; i++){
+    document.getElementById("table8").innerHTML = (`<li style='list-style:none;' > ${tableNum4} x ${i} = ${tableNum4 * i} </li>`)
+}
+for (let i = 1; i < 10; i++){
+    document.getElementById("table9").innerHTML = (`<li style='list-style:none;' > ${tableNum4} x ${i} = ${tableNum4 * i} </li>`)
+}
+for (let i = 1; i < 11; i++){
+    document.getElementById("table10").innerHTML = (`<li style='list-style:none;' > ${tableNum4} x ${i} = ${tableNum4 * i} </li>`)
+}
+}
+const tableNum5 = 5
 function forthclick(){
-    var back = (`<a href="./tables.html">Back</a>`)
-    document.write(back)
-    
-    for (let i = 1; i < 11; i++){
-        document.write(`<li style='list-style:none;margin-left:50px' > ${tableNumber4} x ${i} = ${tableNumber4 * i} </li>`)
-    }
+
+for (let i = 1; i < 2; i++){
+    document.getElementById("table1").innerHTML = (`<li style='list-style:none;' > ${tableNum5} x ${i} = ${tableNum5 * i} </li>`)
 }
-const tableNumber5 = 6
+for (let i = 1; i < 3; i++){
+    document.getElementById("table2").innerHTML = (`<li style='list-style:none;' > ${tableNum5} x ${i} = ${tableNum5 * i} </li>`)
+}
+for (let i = 1; i < 4; i++){
+    document.getElementById("table3").innerHTML = (`<li style='list-style:none;' > ${tableNum5} x ${i} = ${tableNum5 * i} </li>`)
+}
+for (let i = 1; i < 5; i++){
+    document.getElementById("table4").innerHTML = (`<li style='list-style:none;' > ${tableNum5} x ${i} = ${tableNum5 * i} </li>`)
+}
+for (let i = 1; i < 6; i++){
+    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum5} x ${i} = ${tableNum5 * i} </li>`)
+}
+for (let i = 1; i < 7; i++){
+    document.getElementById("table6").innerHTML = (`<li style='list-style:none;' > ${tableNum5} x ${i} = ${tableNum5 * i} </li>`)
+}
+for (let i = 1; i < 8; i++){
+    document.getElementById("table7").innerHTML = (`<li style='list-style:none;' > ${tableNum5} x ${i} = ${tableNum5 * i} </li>`)
+}
+for (let i = 1; i < 9; i++){
+    document.getElementById("table8").innerHTML = (`<li style='list-style:none;' > ${tableNum5} x ${i} = ${tableNum5 * i} </li>`)
+}
+for (let i = 1; i < 10; i++){
+    document.getElementById("table9").innerHTML = (`<li style='list-style:none;' > ${tableNum5} x ${i} = ${tableNum5 * i} </li>`)
+}
+for (let i = 1; i < 11; i++){
+    document.getElementById("table10").innerHTML = (`<li style='list-style:none;' > ${tableNum5} x ${i} = ${tableNum5 * i} </li>`)
+}
+}
+const tableNum6 = 6
 function fifthclick(){
-    var back = (`<a href="./tables.html">Back</a>`)
-    document.write(back)
-    
-    for (let i = 1; i < 11; i++){
-        document.write(`<li style='list-style:none;margin-left:50px' > ${tableNumber5} x ${i} = ${tableNumber5 * i} </li>`)
-    }
+
+for (let i = 1; i < 2; i++){
+    document.getElementById("table1").innerHTML = (`<li style='list-style:none;' > ${tableNum6} x ${i} = ${tableNum6 * i} </li>`)
 }
-const tableNumber6 = 7
+for (let i = 1; i < 3; i++){
+    document.getElementById("table2").innerHTML = (`<li style='list-style:none;' > ${tableNum6} x ${i} = ${tableNum6 * i} </li>`)
+}
+for (let i = 1; i < 4; i++){
+    document.getElementById("table3").innerHTML = (`<li style='list-style:none;' > ${tableNum6} x ${i} = ${tableNum6 * i} </li>`)
+}
+for (let i = 1; i < 5; i++){
+    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum6} x ${i} = ${tableNum6 * i} </li>`)
+}
+for (let i = 1; i < 6; i++){
+    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum6} x ${i} = ${tableNum6 * i} </li>`)
+}
+for (let i = 1; i < 7; i++){
+    document.getElementById("table6").innerHTML = (`<li style='list-style:none;' > ${tableNum6} x ${i} = ${tableNum6 * i} </li>`)
+}
+for (let i = 1; i < 8; i++){
+    document.getElementById("table7").innerHTML = (`<li style='list-style:none;' > ${tableNum6} x ${i} = ${tableNum6 * i} </li>`)
+}
+for (let i = 1; i < 9; i++){
+    document.getElementById("table8").innerHTML = (`<li style='list-style:none;' > ${tableNum6} x ${i} = ${tableNum6 * i} </li>`)
+}
+for (let i = 1; i < 10; i++){
+    document.getElementById("table9").innerHTML = (`<li style='list-style:none;' > ${tableNum6} x ${i} = ${tableNum6 * i} </li>`)
+}
+for (let i = 1; i < 11; i++){
+    document.getElementById("table10").innerHTML = (`<li style='list-style:none;' > ${tableNum6} x ${i} = ${tableNum6 * i} </li>`)
+}
+}
+const tableNum7 = 7
 function sixthclick(){
-    var back = (`<a href="./tables.html">Back</a>`)
-    document.write(back)
-    
-    for (let i = 1; i < 11; i++) 
-    {
-        document.write(`<li style='list-style:none;margin-left:50px' > ${tableNumber6} x ${i} = ${tableNumber6 * i} </li>`)
-    }
+
+for (let i = 1; i < 2; i++){
+    document.getElementById("table1").innerHTML = (`<li style='list-style:none;' > ${tableNum7} x ${i} = ${tableNum7 * i} </li>`)
 }
-const tableNumber7 = 8
+for (let i = 1; i < 3; i++){
+    document.getElementById("table2").innerHTML = (`<li style='list-style:none;' > ${tableNum7} x ${i} = ${tableNum7 * i} </li>`)
+}
+for (let i = 1; i < 4; i++){
+    document.getElementById("table3").innerHTML = (`<li style='list-style:none;' > ${tableNum7} x ${i} = ${tableNum7 * i} </li>`)
+}
+for (let i = 1; i < 5; i++){
+    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum7} x ${i} = ${tableNum7 * i} </li>`)
+}
+for (let i = 1; i < 6; i++){
+    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum7} x ${i} = ${tableNum7 * i} </li>`)
+}
+for (let i = 1; i < 7; i++){
+    document.getElementById("table6").innerHTML = (`<li style='list-style:none;' > ${tableNum7} x ${i} = ${tableNum7 * i} </li>`)
+}
+for (let i = 1; i < 8; i++){
+    document.getElementById("table7").innerHTML = (`<li style='list-style:none;' > ${tableNum7} x ${i} = ${tableNum7 * i} </li>`)
+}
+for (let i = 1; i < 9; i++){
+    document.getElementById("table8").innerHTML = (`<li style='list-style:none;' > ${tableNum7} x ${i} = ${tableNum7 * i} </li>`)
+}
+for (let i = 1; i < 10; i++){
+    document.getElementById("table9").innerHTML = (`<li style='list-style:none;' > ${tableNum7} x ${i} = ${tableNum7 * i} </li>`)
+}
+for (let i = 1; i < 11; i++){
+    document.getElementById("table10").innerHTML = (`<li style='list-style:none;' > ${tableNum7} x ${i} = ${tableNum7 * i} </li>`)
+}
+}
+const tableNum8 = 8
 function sevenclick(){
-    var back = (`<a href="./tables.html">Back</a>`)
-    document.write(back)
-    
-    for (let i = 1; i < 11; i++){
-        document.write(`<li style='list-style:none;margin-left:50px' > ${tableNumber7} x ${i} = ${tableNumber7 * i} </li>`)
-    }
+
+for (let i = 1; i < 2; i++){
+    document.getElementById("table1").innerHTML = (`<li style='list-style:none;' > ${tableNum8} x ${i} = ${tableNum8 * i} </li>`)
 }
-const tableNumber8 = 9
+for (let i = 1; i < 3; i++){
+    document.getElementById("table2").innerHTML = (`<li style='list-style:none;' > ${tableNum8} x ${i} = ${tableNum8 * i} </li>`)
+}
+for (let i = 1; i < 4; i++){
+    document.getElementById("table3").innerHTML = (`<li style='list-style:none;' > ${tableNum8} x ${i} = ${tableNum8 * i} </li>`)
+}
+for (let i = 1; i < 5; i++){
+    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum8} x ${i} = ${tableNum8 * i} </li>`)
+}
+for (let i = 1; i < 6; i++){
+    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum8} x ${i} = ${tableNum8 * i} </li>`)
+}
+for (let i = 1; i < 7; i++){
+    document.getElementById("table6").innerHTML = (`<li style='list-style:none;' > ${tableNum8} x ${i} = ${tableNum8 * i} </li>`)
+}
+for (let i = 1; i < 8; i++){
+    document.getElementById("table7").innerHTML = (`<li style='list-style:none;' > ${tableNum8} x ${i} = ${tableNum8 * i} </li>`)
+}
+for (let i = 1; i < 9; i++){
+    document.getElementById("table8").innerHTML = (`<li style='list-style:none;' > ${tableNum8} x ${i} = ${tableNum8 * i} </li>`)
+}
+for (let i = 1; i < 10; i++){
+    document.getElementById("table9").innerHTML = (`<li style='list-style:none;' > ${tableNum8} x ${i} = ${tableNum8 * i} </li>`)
+}
+for (let i = 1; i < 11; i++){
+    document.getElementById("table10").innerHTML = (`<li style='list-style:none;' > ${tableNum8} x ${i} = ${tableNum8 * i} </li>`)
+}
+}
+const tableNum9 = 9
 function eightclick(){
-    var back = (`<a href="./tables.html">Back</a>`)
-    document.write(back)
-    
-    for (let i = 1; i < 11; i++){
-        document.write(`<li style='list-style:none;margin-left:50px' > ${tableNumber8} x ${i} = ${tableNumber8 * i} </li>`)
-    }
+
+for (let i = 1; i < 2; i++){
+    document.getElementById("table1").innerHTML = (`<li style='list-style:none;' > ${tableNum9} x ${i} = ${tableNum9 * i} </li>`)
 }
-const tableNumber9 = 10
+for (let i = 1; i < 3; i++){
+    document.getElementById("table2").innerHTML = (`<li style='list-style:none;' > ${tableNum9} x ${i} = ${tableNum9 * i} </li>`)
+}
+for (let i = 1; i < 4; i++){
+    document.getElementById("table3").innerHTML = (`<li style='list-style:none;' > ${tableNum9} x ${i} = ${tableNum9 * i} </li>`)
+}
+for (let i = 1; i < 5; i++){
+    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum9} x ${i} = ${tableNum9 * i} </li>`)
+}
+for (let i = 1; i < 6; i++){
+    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum9} x ${i} = ${tableNum9 * i} </li>`)
+}
+for (let i = 1; i < 7; i++){
+    document.getElementById("table6").innerHTML = (`<li style='list-style:none;' > ${tableNum9} x ${i} = ${tableNum9 * i} </li>`)
+}
+for (let i = 1; i < 8; i++){
+    document.getElementById("table7").innerHTML = (`<li style='list-style:none;' > ${tableNum9} x ${i} = ${tableNum9 * i} </li>`)
+}
+for (let i = 1; i < 9; i++){
+    document.getElementById("table8").innerHTML = (`<li style='list-style:none;' > ${tableNum9} x ${i} = ${tableNum9 * i} </li>`)
+}
+for (let i = 1; i < 10; i++){
+    document.getElementById("table9").innerHTML = (`<li style='list-style:none;' > ${tableNum9} x ${i} = ${tableNum9 * i} </li>`)
+}
+for (let i = 1; i < 11; i++){
+    document.getElementById("table10").innerHTML = (`<li style='list-style:none;' > ${tableNum9} x ${i} = ${tableNum9 * i} </li>`)
+}
+}
+const tableNum10 = 10
 function nineclick(){
-    var back = (`<a href="./tables.html">Back</a>`)
-    document.write(back)
-    
-    for (let i = 1; i < 11; i++){
-        document.write(`<li style='list-style:none;margin-left:50px' > ${tableNumber9} x ${i} = ${tableNumber9 * i} </li>`)
-    }
+
+for (let i = 1; i < 2; i++){
+    document.getElementById("table1").innerHTML = (`<li style='list-style:none;' > ${tableNum10} x ${i} = ${tableNum10 * i} </li>`)
+}
+for (let i = 1; i < 3; i++){
+    document.getElementById("table2").innerHTML = (`<li style='list-style:none;' > ${tableNum10} x ${i} = ${tableNum10 * i} </li>`)
+}
+for (let i = 1; i < 4; i++){
+    document.getElementById("table3").innerHTML = (`<li style='list-style:none;' > ${tableNum10} x ${i} = ${tableNum10 * i} </li>`)
+}
+for (let i = 1; i < 5; i++){
+    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum10} x ${i} = ${tableNum10 * i} </li>`)
+}
+for (let i = 1; i < 6; i++){
+    document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum10} x ${i} = ${tableNum10 * i} </li>`)
+}
+for (let i = 1; i < 7; i++){
+    document.getElementById("table6").innerHTML = (`<li style='list-style:none;' > ${tableNum10} x ${i} = ${tableNum10 * i} </li>`)
+}
+for (let i = 1; i < 8; i++){
+    document.getElementById("table7").innerHTML = (`<li style='list-style:none;' > ${tableNum10} x ${i} = ${tableNum10 * i} </li>`)
+}
+for (let i = 1; i < 9; i++){
+    document.getElementById("table8").innerHTML = (`<li style='list-style:none;' > ${tableNum10} x ${i} = ${tableNum10 * i} </li>`)
+}
+for (let i = 1; i < 10; i++){
+    document.getElementById("table9").innerHTML = (`<li style='list-style:none;' > ${tableNum10} x ${i} = ${tableNum10 * i} </li>`)
+}
+for (let i = 1; i < 11; i++){
+    document.getElementById("table10").innerHTML = (`<li style='list-style:none;' > ${tableNum10} x ${i} = ${tableNum10 * i} </li>`)
+}
 }
 
 function performsearch(){
-    
-    const table = document.getElementById("search-input").value;
-
-    for (let i = 1; i < 11; i++){
-        document.write(`<li style='list-style:none;margin-left:50px' > ${table} x ${i} = ${table * i} </li>`)
+    const tableNum11 = document.getElementById("search-input").value;
+    if(0 < tableNum11){
+    for (let i = 1; i < 2; i++){
+        document.getElementById("table1").innerHTML = (`<li style='list-style:none;' > ${tableNum11} x ${i} = ${tableNum11 * i} </li>`)
     }
-    var back = (`<a href="./tables.html">Back</a>`)
-    document.write(back)
+    for (let i = 1; i < 3; i++){
+        document.getElementById("table2").innerHTML = (`<li style='list-style:none;' > ${tableNum11} x ${i} = ${tableNum11 * i} </li>`)
+    }
+    for (let i = 1; i < 4; i++){
+        document.getElementById("table3").innerHTML = (`<li style='list-style:none;' > ${tableNum11} x ${i} = ${tableNum11 * i} </li>`)
+    }
+    for (let i = 1; i < 5; i++){
+        document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum11} x ${i} = ${tableNum11 * i} </li>`)
+    }
+    for (let i = 1; i < 6; i++){
+        document.getElementById("table5").innerHTML = (`<li style='list-style:none;' > ${tableNum11} x ${i} = ${tableNum11 * i} </li>`)
+    }
+    for (let i = 1; i < 7; i++){
+        document.getElementById("table6").innerHTML = (`<li style='list-style:none;' > ${tableNum11} x ${i} = ${tableNum11 * i} </li>`)
+    }
+    for (let i = 1; i < 8; i++){
+        document.getElementById("table7").innerHTML = (`<li style='list-style:none;' > ${tableNum11} x ${i} = ${tableNum11 * i} </li>`)
+    }
+    for (let i = 1; i < 9; i++){
+        document.getElementById("table8").innerHTML = (`<li style='list-style:none;' > ${tableNum11} x ${i} = ${tableNum11 * i} </li>`)
+    }
+    for (let i = 1; i < 10; i++){
+        document.getElementById("table9").innerHTML = (`<li style='list-style:none;' > ${tableNum11} x ${i} = ${tableNum11 * i} </li>`)
+    }
+    for (let i = 1; i < 11; i++){
+        document.getElementById("table10").innerHTML = (`<li style='list-style:none;' > ${tableNum11} x ${i} = ${tableNum11 * i} </li>`)
+    }
+}else{
+    alert('Please Enter Positive Number')
 }
-
-// function performsearch(){
-//     const man = document.getElementById("search-input").value;
-//     document.write(man)
+}
      
     
 // }
