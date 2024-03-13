@@ -40,7 +40,7 @@
 @media only screen and (max-width:475px) {
     .button{
         grid-template-columns: 25% 25% 25%; 
-   gap: 20px 40px;
+   gap: 20px 30px;
     }
 }
 @media only screen and (max-width:330px) {
