@@ -1,38 +1,205 @@
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+/* Resetting default margin and padding */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
     font-family: Arial, sans-serif;
+  }
+:root {
+    --light-color:#f0f2f5ea;
+    --dark-color:#3D81db;
+    --text-color:#a9aaac;
+    --blue-color:#2A60B7;
+    --daark-color:#4991ee;
 }
 
-.calculator {
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    overflow: hidden;
-}
-
-#display {
+.navbar-expand{
     width: 100%;
-    padding: 10px 40px;
-    font-size: 1.5em;
-    text-align: right;
+    padding: 20px 30px;
+    background-color: white !important;
+    align-items: center !important;
+}
+.fluid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-brand{
+    color: rgb(6, 72, 214) !important;
+    font-size: 30px !important;
+    font-weight: 600 !important;
+}
+.search-bar{
+    display: inline-flex !important;
+    padding: 10px 20px;
+    align-items: center;
+width: 30%;
+height: 40px;
+background-color: white;
+border:1px solid #f0eeee;
+border-radius: 20px;
+/* margin-left: 50px  */
+}
+.navbar-collapse{
+    justify-content: space-between;
+    flex-grow: 0 !important;
+}
+.bar{
+    display: none;
 }
 
-.buttons {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-button {
-    padding: 15px;
-    font-size: 1.2em;
+.form-controll{
+    font-size: small;
+    width: 100%;
+    padding: 0px 20px;
     border: none;
-    cursor: pointer;
+    /* border-color: white; */
+    outline-style: none;
+    color: var(--text-color);
 }
 
-button:active {
-    background-color: #ccc;
+.fa-heat{
+    color: black;
+}
+
+.heart{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #f0eeee;
+    background-color: white;
+}
+.bell{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #f0eeee;
+    background-color: white;
+    position: relative;
+}
+.dott{
+    width: 10px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    right: 3px;
+    top: -2px;
+}
+.gear{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #f0eeee;
+    background-color: white;
+    
+}
+
+.profile{
+    margin-left: 10px;
+    width: 40px;
+    border-radius: 30px;
+    background-color: cornflowerblue;
+    background-image:-webkit-linear-gradient(blue lightblue);
+}
+.navbalinks {
+    width: 50%;
+    height: 100vh;
+    float: right;
+    display: none;
+    background-color: #bdbaba;
+    line-height: 20px;
+  }
+.navbalinks a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+.navbarlinks a:hover {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .icon {
+      display: block;
+      cursor: pointer;
+    }
+  }
+  @media only screen and (max-width:970px) {
+    .nav-item{
+        display: none;
+    }
+    .search-bar{
+        width: 50%;
+    }
+    .bar{
+        color: var(--text-color);
+        display:block;
+    }
+
+}
+@media only screen and (max-width:840px) {
+    .search-bar{
+        width: 50%;
+        /* height: 30px; */
+    }
+
+}
+@media only screen and (max-width:670px) {
+    
+    .form-controll{
+        width: 100%;
+        font-size: x-small;
+    }
+
+}
+@media only screen and (max-width:580px) {
+     .navbar-expand{
+        padding:0px 40px;
+    }
+    .fluid{
+        justify-content: space-between;
+        
+    }
+    .navbar-brand{
+        font-size: medium;
+        letter-spacing: -2px;
+    }
+    .search-bar{
+        width: 40%;
+        padding: 7px 5px;
+        align-items:normal;
+    }
+    .form-controll{
+        width: 100%;
+        padding:0px 10px;
+    }
+    .sliders{
+        display: none;
+    }
+
+}
+@media only screen and (max-width:470px) {
+    .navbar-expand{
+        width: 100%;
+        padding: 20px 10px;
+        overflow: hidden;
+        /* padding-right: 30px; */
+    }
+   
 }
