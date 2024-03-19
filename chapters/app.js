@@ -7,14 +7,38 @@
 // for (let i = 1; i < 11; i++){
 //     document.write(`<li> ${tableNumber} x ${i} = ${tableNumber * i} </li>`)
 // }
-var gare = document.getElementById('gare')
+
 var body = document.querySelector('body')
+var gare = document.getElementById('gare')
+
 gare.addEventListener('click', function () {
-    if (body.style.backgroundColor === 'white') {
-        body.style.backgroundColor = 'black'
+    var gradient =document.getElementById('gradient').innerHTML = (`<button style="padding:5px 10px">Gradient</button>`)
+        var dark = document.getElementById('dark').innerHTML = (`<button style="padding:5px 10px">Dark</button>`)
+        var light =document.getElementById('light').innerHTML = (`<button style="padding:5px 10px">Light</button>`)
+        
+})
+gradient.addEventListener('click', function () {
+    if (body) {
+        body.style.background = 'linear-gradient(to right top, rgb(93, 93, 228),rgb(178, 109, 241),rgb(228, 167, 167) )'
+        gare.style.color = 'black'
+        body.style.color = 'white'
+    }
+})
+dark.addEventListener('click', function () {
+    if (body) {
+        body.style.backgroundColor = 'rgb(54, 51, 51)'
+        gare.style.color = 'white'
+        body.style.color = 'white'
     }
 })
 
+light.addEventListener('click', function () {
+    if (body) {
+        body.style.backgroundColor = 'white'
+        gare.style.color = 'black'
+        body.style.color = 'black'
+    }
+})
 
 const tableNum2 = 2
 function firstclick(){
