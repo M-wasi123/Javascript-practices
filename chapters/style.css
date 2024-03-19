@@ -13,9 +13,12 @@
 }
 
 #but{
-    /* width: 5%; */
-    padding: 15px 0px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 10px;
     font-size: large;
+    background-color: antiquewhite;
 }
 .search-button{
     display: flex;
@@ -30,6 +33,9 @@
 #search-btn{
     padding: 5px 8px;
 
+}
+.pera-table{
+    background-color: antiquewhite;
 }
 @media only screen and (max-width:665px) {
     .button{
