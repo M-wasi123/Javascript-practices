@@ -7,6 +7,14 @@
 // for (let i = 1; i < 11; i++){
 //     document.write(`<li> ${tableNumber} x ${i} = ${tableNumber * i} </li>`)
 // }
+var gare = document.getElementById('gare')
+var body = document.querySelector('body')
+gare.addEventListener('click', function () {
+    if (body.style.backgroundColor === 'white') {
+        body.style.backgroundColor = 'black'
+    }
+})
+
 
 const tableNum2 = 2
 function firstclick(){
