@@ -11,12 +11,25 @@
 var body = document.querySelector('body')
 var gare = document.getElementById('gare')
 
+// gare.addEventListener('click', function () {
+//     var gradient =document.getElementById('gradient').innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Gradient</button>`)
+//         var dark = document.getElementById('dark').innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Dark</button>`)
+//         var light =document.getElementById('light').innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Light</button>`)
+        
+// })
 gare.addEventListener('click', function () {
-    var gradient =document.getElementById('gradient').innerHTML = (`<button style="padding:5px 10px">Gradient</button>`)
-        var dark = document.getElementById('dark').innerHTML = (`<button style="padding:5px 10px">Dark</button>`)
-        var light =document.getElementById('light').innerHTML = (`<button style="padding:5px 10px">Light</button>`)
+    var gradient =document.getElementById('gradient')
+        var dark = document.getElementById('dark')
+        var light =document.getElementById('light')
+
+if (gradient || dark || light) {
+       gradient.innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Gradient</button>`)
+        dark.innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Dark</button>`)
+        light.innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Light</button>`)
+    }
 })
 gradient.addEventListener('click', function () {
+   
     if (body) {
         body.style.background = 'linear-gradient(to right top, rgb(93, 93, 228),rgb(178, 109, 241),rgb(228, 167, 167) )'
         gare.style.color = 'black'
@@ -28,7 +41,6 @@ dark.addEventListener('click', function () {
         body.style.backgroundColor = 'rgb(54, 51, 51)'
         gare.style.color = 'white'
         body.style.color = 'black'
-        
     }
 })
 

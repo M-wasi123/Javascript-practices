@@ -29,12 +29,17 @@
     width: 125px;
     padding: 8px 2px;
     font-size: small;
+    background-color: antiquewhite;
+    border: none;
+    outline: none;
 }
 #search-btn{
     padding: 5px 8px;
-
+    background-color: antiquewhite;
+    border: none;
+    outline: none;
 }
-.pera-table{
+.peraTable{
     background-color: antiquewhite;
 }
 @media only screen and (max-width:665px) {
@@ -63,7 +68,7 @@
     border: 1px solid rgb(238, 235, 235);
     padding: 10px 2px;
 }
-.pera-table{
+.peraTable{
     font-size: large;
     line-height: 25px;
     word-spacing: 10px;
