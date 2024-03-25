@@ -17,11 +17,13 @@ var gare = document.getElementById('gare')
 //         var light =document.getElementById('light').innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Light</button>`)
         
 // })
+
+var gradient =document.getElementById('gradient')
+var dark = document.getElementById('dark')
+var light =document.getElementById('light')
+var upLoadFile = document.getElementById('file')
 gare.addEventListener('click', function () {
-    var gradient =document.getElementById('gradient')
-        var dark = document.getElementById('dark')
-        var light =document.getElementById('light')
-        var upLoadFile = document.getElementById('file')
+
 
 if (body) {
        gradient.innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Gradient</button>`)
@@ -29,7 +31,9 @@ if (body) {
         light.innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Light</button>`)
 upLoadFile.innerHTML = (`<input type="file" id="fil" style="display:none;margin:10px " > <label style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px" for="fil">Up Load</label>`)
     }
+    
 })
+
 gradient.addEventListener('click', function () {
    
     if (body) {
@@ -41,7 +45,7 @@ gradient.addEventListener('click', function () {
 dark.addEventListener('click', function () {
     if (body) {
         body.style.background = 'linear-gradient(to right top, black ,black ,black)'
-        gare.style.color = 'white'
+        gare.style.color = 'black'
         body.style.color = 'black'
     }
 })
@@ -57,8 +61,7 @@ light.addEventListener('click', function () {
 
 const tableNum2 = 2
 function firstclick(){
-//     var back = (`<a href="./tables.html">Back</a>`)
-// document.write(back)
+
     for (let i = 1; i < 2; i++){
         document.getElementById("table1").innerHTML = (`<li style='list-style:none;' > ${tableNum2} x ${i} = ${tableNum2 * i} </li>`)
     }
@@ -397,7 +400,7 @@ function performsearch(){
         document.getElementById("table10").innerHTML = (`<li style='list-style:none;' > ${tableNum11} x ${i} = ${tableNum11 * i} </li>`)
     }
 }else if(0 <= tableNum11){
-    alert('Please Enter 1,2,3')
+    alert('Please Enter 1,2,3....')
 }
 else{
     alert('Please Enter Positive Number')

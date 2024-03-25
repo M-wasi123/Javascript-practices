@@ -3,6 +3,13 @@
     margin: 0%;
     box-sizing: border-box;
 }
+#gare{
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
 .button{
     width: 100%;
     padding: 60px 80px;
@@ -27,7 +34,7 @@
 }
 #search-input{
     width: 125px;
-    padding: 8px 2px;
+    padding: 8px 6px;
     font-size: small;
     background-color: antiquewhite;
     border: none;
@@ -49,6 +56,9 @@
 }
 
 @media only screen and (max-width:665px) {
+    #gare{
+        margin: 10px 5px;
+    }
     .button{
         grid-template-columns: 15% 15% 15%; 
    gap: 20px 80px;
