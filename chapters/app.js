@@ -21,11 +21,13 @@ gare.addEventListener('click', function () {
     var gradient =document.getElementById('gradient')
         var dark = document.getElementById('dark')
         var light =document.getElementById('light')
+        var upLoadFile = document.getElementById('file')
 
-if (gradient || dark || light) {
+if (body) {
        gradient.innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Gradient</button>`)
         dark.innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Dark</button>`)
         light.innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Light</button>`)
+upLoadFile.innerHTML = (`<input type="file" id="fil" style="display:none;margin:10px " > <label style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px" for="fil">Up Load</label>`)
     }
 })
 gradient.addEventListener('click', function () {
@@ -38,7 +40,7 @@ gradient.addEventListener('click', function () {
 })
 dark.addEventListener('click', function () {
     if (body) {
-        body.style.backgroundColor = 'rgb(54, 51, 51)'
+        body.style.background = 'linear-gradient(to right top, black ,black ,black)'
         gare.style.color = 'white'
         body.style.color = 'black'
     }
@@ -46,11 +48,12 @@ dark.addEventListener('click', function () {
 
 light.addEventListener('click', function () {
     if (body) {
-        body.style.backgroundColor = 'white'
+        body.style.background = 'linear-gradient(to left top, white ,white ,white)'
         gare.style.color = 'black'
         body.style.color = 'black'
     }
 })
+
 
 const tableNum2 = 2
 function firstclick(){
