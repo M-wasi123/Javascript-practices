@@ -10,6 +10,8 @@
 
 var body = document.querySelector('body')
 var gare = document.getElementById('gare')
+var gare1 = document.getElementById('gare1')
+var button = document.querySelector('.button')
 
 // gare.addEventListener('click', function () {
 //     var gradient =document.getElementById('gradient').innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Gradient</button>`)
@@ -21,17 +23,33 @@ var gare = document.getElementById('gare')
 var gradient =document.getElementById('gradient')
 var dark = document.getElementById('dark')
 var light =document.getElementById('light')
+var background = document.getElementById('background')
+var gift = document.getElementById('gift')
 var upLoadFile = document.getElementById('file')
-gare.addEventListener('click', function () {
 
-
-if (body) {
+gare.addEventListener('click', function (val) {
        gradient.innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Gradient</button>`)
         dark.innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Dark</button>`)
         light.innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Light</button>`)
+        gift.innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Animated Gift</button>`)
 upLoadFile.innerHTML = (`<input type="file" id="fil" style="display:none;margin:10px " > <label style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px" for="fil">Up Load</label>`)
+button.style.marginLeft = '40px'
+    if (body) {
+        gare.style.display = 'none'
+        gare1.style.display = 'block'
     }
-    
+})
+gare1.addEventListener('click', function () {
+    gradient.innerHTML = ''
+     dark.innerHTML = ''
+     light.innerHTML = ''
+     gift.innerHTML = ''
+upLoadFile.innerHTML = ''
+button.style.marginLeft = '0px'
+if (body) {
+    gare.style.display = 'block'
+    gare1.style.display = 'none'
+}
 })
 
 gradient.addEventListener('click', function () {
@@ -40,6 +58,7 @@ gradient.addEventListener('click', function () {
         body.style.background = 'linear-gradient(to right top, rgb(93, 93, 228),rgb(178, 109, 241),rgb(228, 167, 167) )'
         gare.style.color = 'black'
         body.style.color = 'black'
+        background.style.display = 'none'
     }
 })
 dark.addEventListener('click', function () {
@@ -47,6 +66,7 @@ dark.addEventListener('click', function () {
         body.style.background = 'linear-gradient(to right top, black ,black ,black)'
         gare.style.color = 'black'
         body.style.color = 'black'
+        background.style.display = 'none'
     }
 })
 
@@ -55,9 +75,18 @@ light.addEventListener('click', function () {
         body.style.background = 'linear-gradient(to left top, white ,white ,white)'
         gare.style.color = 'black'
         body.style.color = 'black'
+        background.style.display = 'none'
     }
 })
-
+gift.addEventListener('click', function () {
+    if (body) {
+        background.style.display = 'block'
+        gare.style.color = 'white'
+        body.style.color = 'black'
+    }else{
+        background.style.display = 'none'
+    }
+})
 
 const tableNum2 = 2
 function firstclick(){
