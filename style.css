@@ -30,7 +30,7 @@
     .container{
         width: 100%;
         display: grid;
-        grid-template-columns:80% 80% 80%;
+        grid-template-columns:80% ;
        padding: 30px;
        column-gap: 30px;
     }
