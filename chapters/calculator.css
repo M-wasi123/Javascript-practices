@@ -10,11 +10,13 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right bottom,pink, rgb(236, 159, 236), rgb(238, 94, 94) );
+    background-image: url('tumblr_nqn5a0IY4P1qilpmuo1_400.gif');
 }
 .tableContainer{
     max-width:400px;
     width: 30%;
     background: linear-gradient(to left bottom ,rgb(223, 179, 186), rgb(247, 79, 247) );
+background-image: url('paper.gif');
 }
 .table{
 width: 100%;
@@ -32,7 +34,7 @@ padding: 5px;
     text-align: right;
     border: none;
     outline: none;
-    background-color: rgb(212, 221, 228);
+    background-color: rgb(218, 220, 221);
 }
 
 .screen{
@@ -43,7 +45,7 @@ padding: 5px;
     border: none;
     outline: none;
     margin-bottom: 10px;
-    background-color: rgb(212, 221, 228);
+    background-color: rgb(218, 220, 221);
 }
 .tableButton{
     width: 100%;
@@ -57,7 +59,7 @@ padding: 5px;
     padding: 10px 20px;
     border: none;
     outline: none;
-    background-color: rgb(202, 205, 207);
+    background-color: rgb(228, 230, 231);
 }
 #button2{
     width: 100%;
@@ -65,7 +67,7 @@ padding: 5px;
     padding: 8px 20px;
     border: none;
     outline: none;
-    background-color: rgb(202, 205, 207);
+    background-color: rgb(228, 230, 231);
 }
 #button1{
     width: 100%;
@@ -73,7 +75,7 @@ padding: 5px;
     padding: 4px 20px;
     border: none;
     outline: none;
-    background-color: rgb(202, 205, 207);
+    background-color: rgb(228, 230, 231);
 }
 #button:hover {
     background-color: rgb(162, 229, 250);
