@@ -6,7 +6,7 @@
 }
 #background{
     width: 100%;
-    object-fit: contain;
+    object-fit: fill;
     position: absolute;
     z-index: -1;
 }
