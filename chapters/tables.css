@@ -34,6 +34,7 @@ text-align: center;
 .butt{
 position: absolute;
 }
+
 .button{
     width: 100%;
     padding: 60px 80px;
@@ -51,6 +52,9 @@ position: absolute;
     font-size: large;
     background-color: antiquewhite;
 }
+#but:hover{
+    background-color: rgb(211, 177, 133);
+}
 .search-button{
     display: flex;
     gap: 5px;
@@ -64,11 +68,17 @@ position: absolute;
     border: none;
     outline: none;
 }
+#search-input:hover{
+    background-color: rgb(211, 177, 133);
+}
 #search-btn{
     padding: 5px 8px;
     background-color: antiquewhite;
     border: none;
     outline: none;
+}
+#search-btn:hover{
+    background-color: rgb(211, 177, 133);
 }
 .peraTable{
     background-color: antiquewhite;
