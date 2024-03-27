@@ -32,7 +32,7 @@ gare.addEventListener('click', function (val) {
         dark.innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Dark</button>`)
         light.innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Light</button>`)
         gift.innerHTML = (`<button style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px">Animated Gift</button>`)
-upLoadFile.innerHTML = (`<input type="file" id="fil" style="display:none;margin:10px " > <label style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px" for="fil">Up Load</label>`)
+upLoadFile.innerHTML = (`<input type="file" id="fil" style="display:none;margin:10px " > <label style="padding:5px 10px; background-color: antiquewhite;border:none;margin:10px;" for="fil">Up Load</label>`)
 button.style.marginLeft = '40px'
     if (body) {
         gare.style.display = 'none'
@@ -51,7 +51,6 @@ if (body) {
     gare1.style.display = 'none'
 }
 })
-
 gradient.addEventListener('click', function () {
    
     if (body) {
