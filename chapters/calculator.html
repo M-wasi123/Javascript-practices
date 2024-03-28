@@ -12,16 +12,17 @@
         <div class="tableContainer">
 <div class="table">
     <td><input type="text" id="result1" class="screen1" disabled></td>
-        <td><input type="text" id="result" class="screen"></td>
+        <td><input type="text" id="result" class="screen">
+        </td>
 <div class="tableButton">
         <td>
             <input type="button" id="button" value="%" onclick="display('%')" class="operator">
         </td>
         <td>
-            <input type="button" id="button" value="CE" onclick="clearScreen1('C')" class="operater">
+            <input type="button" id="button" value="CE" onclick="clearScreen1()" class="operater">
         </td>
         <td>
-            <input type="button" id="button" value="C" onclick="clearScreen('C')" class="operater">
+            <input type="button" id="button" value="C" onclick="clearScreen()" class="operater">
         </td>
     <td>
         <input type="button" id="button2" value="÷" onclick="display('/')" class="operater">
@@ -78,7 +79,7 @@
     
 
         <td>
-            <input type="button" id="button" value="+/-" onclick="display('+/-')" class="number">
+            <input type="button" id="button" value="+/-" onclick="display('')" class="number">
         </td>
         <td>
             <input type="button" id="button" value="0" onclick="display('0')" class="number">
@@ -89,7 +90,7 @@
 
         </td>
         <td>
-            <input type="button" id="button1" value="=" onclick="solve()" class="egual">
+            <input type="button" id="button1" value="=" onclick="solve1()" class="egual">
            
         </td>
     </div>
